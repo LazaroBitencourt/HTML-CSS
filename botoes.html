@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro tipos de botoes</title>
+</head>
+
+<body>
+
+    <form name="Cadastro" action="http://meusite.com.br/cadastro" method="post" autocomplete="off">
+        Nome*:<input type="text" name="name"><br>
+        Idade*:<input type="number" name="age"><br>
+        Senha*:<input type="password" name="password"><br>
+        <button type="button" onclick="alert('Cadastrado com sucesso')">Cadastrar</button>
+    </form><br><hr><br>
+
+    <form name="Cadastro" action="http://meusite.com.br/cadastro" method="post" autocomplete="off">
+        Nome*:<input type="text" name="name"><br>
+        Idade*:<input type="number" name="age"><br>
+        Senha*:<input type="password" name="password"><br>
+        <button type="reset">Limpar Campos</button>
+    </form><br><hr><br>
+
+    <form name="Cadastro" action="http://meusite.com.br/cadastro" method="post" autocomplete="off">
+        Nome*:<input type="text" name="name"><br>
+        Idade*:<input type="number" name="age"><br>
+        Senha*:<input type="password" name="password"><br>
+        <button type="submit">Enviar</button>
+    </form><br><hr><br>
+
+    <form name="Cadastro" action="http://meusite.com.br/cadastro" method="post" autocomplete="off">
+        Nome*:<input type="text" name="name"><br>
+        <label>Cargo</label>
+        <select name="role">
+            <option selected value="">Selecione o cargo</option>
+            <option value="administrativo">Administrativo</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+        </select><br> 
+        <label>Assunto:</label><input type="text" name="assunto"><br> 
+        <label>Mensagem:</label><br>
+        <textarea name="mensagem" rows="5" cols="30"></textarea><br>
+        <button type="submit">Enviar</button>
+    </form><br><hr><br>
+</body>
+
+</html>
