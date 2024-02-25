@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Tabelas</title>
+    <style>
+        table {
+            -webkit-box-shadow: 21px 21px 3px -5px rgba(0, 0, 0, 0.16);
+            -moz-box-shadow: 21px 21px 3px -5px rgba(0, 0, 0, 0.16);
+            box-shadow: 21px 21px 3px -5px rgba(0, 0, 0, 0.16);
+            border: solid 1px gray;
+        }
+
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+
+        table tfoot {
+            background-color: rgb(189, 188, 188);
+        }
+
+        table tbody tr:nth-child(even) td {
+            background-color: #dbdbdb;
+        }
+
+        table tbody tr:hover td {
+            background-color: rgb(228, 228, 228);
+            cursor: pointer;
+        }
+        table tbody td {text-align: center;}
+        table tfoot td {text-align: center;}
+    </style>
+    
+</head>
+
+<body>
+    <table width="250" align="center" cellspacing="0">
+        <caption>Esta tabela se refere as idades dos alunos da turma do curso de programação.</caption>
+
+        <thead>
+            <tr>
+                <th colspan="2">
+                    Tabela de alunos
+                </th>
+            </tr>
+            <tr>
+                <th title="Nome completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Diego</td>
+                <td> 38</td>
+            </tr>
+            <tr>
+                <td>Paulo</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td> 23</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>27</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
