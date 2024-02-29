@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: left;
+            margin-right: 5px;
+        }
+
+        input {
+            width: 200px;
+            margin: 1px;
+        }
+
+        textarea {
+            width: 307px;
+        }
+
+        button {
+            margin: 3px;
+        }
+
+        iframe {
+            height: 250;
+            width: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul id="lista">
+                <li class="links"><a href="pagina-principal.html"><strong>Página principal</strong></a></li>
+                <br><br><br>
+                <li class="links"><a href="clinica.html"><strong>Clínica</strong></a></li>
+                <br><br><br>
+                <li class="links"><a href="horarios.html"><strong>Horários de atendimento</strong></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img class="imagem" src="imagens/pexels-mart-production-7088524.jpg"
+                    alt="imagem de um médico cuidando do paciente">
+                <p class="nome"><strong>Clínica Saúde em Dia</strong></p>
+            </div>
+
+            <div class="content">
+                <div style="float: left; width: 36%;">
+                    <h2 class="titulos"><strong>Contato e localização</strong></h2>
+                    <p><strong>Telefone</strong>: (65) 3278-5689
+                        <br>
+                        <strong>WhatsApp</strong>: (65) 998789456
+                        <br>
+                        <strong>E-mail</strong>: clinicasaudeemdia@email.com
+                    </p>
+                    <h2 class="titulos"><strong>Formulário para contato</strong></h2>
+                    <form class="titulos" title="formulario" method="post" autocomplete="off"
+                        action="http://meusite.com.br/cadastro">
+                        <label>Nome:</label><input type="text">
+                        <br>
+                        <label>E-mail:</label><input type="email">
+                        <br>
+                        <label>Assunto:</label><input type="text">
+                        <br>
+                        <label>Mensagem:</label><br><textarea></textarea>
+                        <br>
+                        <button class="titulos" type="submit">Enviar</button><button class="titulos"
+                            type="reset">Limpar</button>
+                    </form>
+
+                </div>
+
+                <div style="float: right; width: 64%;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15284.244453573292!2d-43.87506550615092!3d-16.72380224464619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab54abb38734ed%3A0xf03c1456fe717dd4!2sCentro%2C%20Montes%20Claros%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1709225309158!5m2!1spt-BR!2sbr"
+                        width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <h2 class="titulos"><strong>Endereço</strong></h2>
+                <p> R. Campo Belo, 16578 - Antonio pimenta, Montes Claros - MG, 39342-550</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
