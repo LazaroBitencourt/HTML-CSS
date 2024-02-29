@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    border: 0;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-family: candara;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+  
+}
+.menu {
+    width: 15%;
+    background-color: rgb(236, 153, 109);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(180, 222, 209);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(180, 222, 209);
+    min-height: 150px;
+    padding: 20px;
+}
+
+.nome{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-12%, -50%);
+    color: rgb(88, 58, 42);
+    font-size: 32px;
+    text-align: center;
+
+}
+.imagem{
+    border-radius: 50%;
+    width: 170px;
+    position: absolute; left: 52%;
+}
+.links{
+    font-size: 28px;
+}
+.titulos{
+    color: rgb(88, 58, 42);
+}
+#lista{
+    padding-top: 100%;
+}
+
