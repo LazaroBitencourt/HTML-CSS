@@ -1,0 +1,6 @@
+div p {
+    background-color: greenyellow ;
+}
+div > p {
+    color: blue;
+}

@@ -1,0 +1,10 @@
+[title|="item de lista decimo primeiro"]{
+    color: green;
+}
+[title~="segundo"]{
+    color: green;
+}
+[title$="em"]{
+    color: green;
+}
+
